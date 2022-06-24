@@ -1,24 +1,16 @@
 import React from "react";
-import {
-  About,
-  Footer,
-  Header,
-  Skills,
-  Testimonial,
-  Works,
-} from "./containers";
+import { About, Footer, Header, Skills, Works } from "./containers";
 import { Navbar } from "./components";
 import "./App.scss";
 
 const App = () => {
   return (
     <div className="app">
-      {/*<Navbar />*/}
+      <Navbar />
       <Header />
       <About />
       <Works />
       <Skills />
-      <Testimonial />
       <Footer />
     </div>
   );
