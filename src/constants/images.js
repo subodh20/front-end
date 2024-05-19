@@ -11,6 +11,7 @@ import about02 from "../assets/about02.png";
 import about03 from "../assets/about03.png";
 import email from "../assets/email.png";
 import mobile from "../assets/mobile.png";
+import subodhProfile from "../assets/subodh-profile.png";
 export default {
   logo,
   profile,
@@ -25,4 +26,5 @@ export default {
   about03,
   email,
   mobile,
+  subodhProfile,
 };
