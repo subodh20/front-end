@@ -4,12 +4,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(255, 255, 255, 0.18);
   position: fixed;
   z-index: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .app__navbar-logo {
   display: flex;
@@ -46,7 +45,7 @@
       text-decoration: none;
       flex-direction: column;
       text-transform: uppercase;
-      font-weight: 500px;
+      font-weight: bold;
       transition: all 0.3s ease-in-out;
 
       &:hover {
